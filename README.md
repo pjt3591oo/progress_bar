@@ -25,7 +25,17 @@ pb.progress_bar(7)
 - test
 
 ```bash
+# progress bar 테스트
+
 $ cd test
 
 $ python test.py
+```
+
+```bash
+# progress bar 적용 테스트
+
+$ cd test
+
+$ python crawler.py
 ```

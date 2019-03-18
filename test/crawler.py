@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from progress_bar import progress_bar
+from progress_bar import progress_bar as pb
 
 
 KEYWORD = "화재"
@@ -32,5 +32,5 @@ if __name__ == "__main__":
 
     PAGE += 1
   
-    progress_bar()
+    pb.progress_bar()
     
