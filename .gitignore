@@ -1,0 +1,4 @@
+build/
+dist/
+progress_bar.egg-info
+__pycache__/

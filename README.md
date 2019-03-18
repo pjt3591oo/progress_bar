@@ -1,11 +1,31 @@
 # progress bar
 
+progress bar for loading
+
+- install
+
 ```bash
-$ python progress_bar.py
+$ pip install progress_bar
 ```
 
-# crawler 적용
+- usage
+
+```python
+from progress_bar import progress_bar as pb
+
+pb.progress_bar(1)
+pb.progress_bar(2)
+pb.progress_bar(3)
+pb.progress_bar(4)
+pb.progress_bar(5)
+pb.progress_bar(6)
+pb.progress_bar(7)
+```
+
+- test
 
 ```bash
-$ python crawler.py
+$ cd test
+
+$ python test.py
 ```
