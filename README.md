@@ -2,7 +2,7 @@
 
 progress bar for loading
 
-- install
+- install(준비중...)
 
 ```bash
 $ pip install progress_bar
